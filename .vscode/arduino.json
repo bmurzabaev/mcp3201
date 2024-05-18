@@ -1,6 +1,0 @@
-{
-    "board": "arduino:avr:uno",
-    "sketch": "examples\\adc_sample\\adc_sample.ino",
-    "programmer": "avrisp",
-    "port": "COM4"
-}
