@@ -7,3 +7,10 @@ This library retreves the result of ADC conversion made by the MCP3201. The `MCP
 The MCP3201 IC requires the SPI interface. The SPI implementation in the library is as follows. Whenever any of above two methods is invoked, the SPI communication is established based on the specifications of the MCP3201. The SPI bus is "locked". When the ADC conversion is done and its result is received, the SPI communication is closed, the SPI bus is released, so the microcontroller can use its hardware SPI bus to communicate with other SPI devices. 
 ## Examples
 The two examples are provided in the examples folder demonstrating how above two methods could be used. 
+## Testing
+The library has been tested with Arduino Uno. The MCP3201 IC was:
+| DigiKey Part Number | MCP3201-CI/P-ND |
+| ------------------- | ----------------|
+| Manufacturer | Microchip Technology |
+| Manufacturer Product Number | MCP3201-CI/P |
+| Description | 12 Bit Analog to Digital Converter 1 Input 1 SAR 8-PDIP |
